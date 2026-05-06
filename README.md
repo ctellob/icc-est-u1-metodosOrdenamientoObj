@@ -1,19 +1,10 @@
-## Getting Started
+# UNIVERSIDAD POLITECNICA SALESIANA
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+##  PROYECTO: METODOS ORDENAMIENTO OBJ  
+##  ESTUDIANTE: CARLOS TELLO
 
-## Folder Structure
+##  TAREA PRACTICA METODO ORDENAMIENTO OBJ
+##  FECHA: 2026-06-05
+##  DESCRIPCION: 
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-caces.salir
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este programa permite comparar métodos de ordenamiento Inserción para poder ordenar las edades de manera ascendente y los nombres en forma alfabetica
