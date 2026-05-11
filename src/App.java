@@ -5,11 +5,11 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         Person[] personas = {
-                new Person("Juan", 25),
-                new Person("Ana", 19),
-                new Person("Carlos", 30),
-                new Person("Maria", 22),
-                new Person("Diego", 15),
+                new Person("Juan", 25, new int[] { 10, 15, 20 }),
+                new Person("Ana", 19, new int[] { 15, 15, 20 }),
+                new Person("Carlos", 30, new int[] { 10, 10, 10 }),
+                new Person("Maria", 22, new int[] { 20, 15, 20 }),
+                new Person("Diego", 15, new int[] { 20, 10, 20 }),
         };
 
         // Imprime sin ordenamiento la edad
@@ -27,6 +27,20 @@ public class App {
 
         // Imprimi ya ordenado la edad
         System.out.println("\n----Ordenado---------");
+        for (Person person : personas) {
+            System.out.println(person);
+        }
+
+        // ORDENA POR PROMEDIO
+        personController.sortPersonByAvrNotas(personas);
+        // IMPRIME ORDENADO POR PROMEDIO
+        System.out.println("Personas ordenadas por promedio:");
+        for (Person person : personas) {
+            System.out.println(person);
+        }
+
+        // ORDENA POR VALOR DE NOMBRE
+        System.out.println("Personas ordenadas por valor:");
         for (Person person : personas) {
             System.out.println(person);
         }
